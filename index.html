@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umesh's Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio...</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It,s Me</h3>
+            <h1>Umesh Kakade</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Full Stack Developer with expertise in creating responsive, user-friendly web applications using both front-end and back-end technologies</p>
+            <div class="social-media">
+                <a href="https://wa.me/918010927013?text=Hello%20Umesh!%20Your%20Interview%20isSheduled%20Tomarrow." target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="https://github.com/umesh-kakade" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/its__umesh__7705?igsh=MTE5ZmE4amprNTNteQ==" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/umesh-kakade/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="Resume.pdf" class="btn" download>Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="umesh.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="UK.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>Java Full Stack Developer with expertise in building end-to-end web applications using Java, Spring Boot, Hibernate, REST APIs, and front-end technologies like HTML, CSS, JavaScript, and React. Skilled in database management MySQL and deploying scalable, secure solutions. Strong problem-solving abilities with a focus on writing clean, efficient, and maintainable code</p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Web Developement</h3>
+                <p>Skilled in building responsive and user-friendly websites with clean, efficient code and smooth functionality</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Database</h3>
+                <p>Proficient in designing and managing databases with focus on performance and security. Skilled in writing efficient queries for seamless application integration.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Full-Stack Developement</h3>
+                <p>Full-Stack developer passionate about crafting intuitive and engaging user experiences. Proficient in HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./chatbot.png" alt="">
+                <div class="portfolio-layers">
+                    <h4>AI Chatbot</h4>
+                    <p>Created an interactive chatbot using HTML, CSS, and JavaScript to deliver responsive and engaging user interactions</p>
+                    <a href="https://umesh-kakade.github.io/Chatbot/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./tic-tac-toe.png" alt="">
+                <div class="portfolio-layers">
+                    <h4>TIC TAC TOE</h4>
+                    <p>Created an interactive TIC TAC TOE Game using HTML, CSS, and JavaScript.</p>
+                    <a href="https://umesh-kakade.github.io/TIC-TAC-TOE/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./Clock.png" alt="">
+                <div class="portfolio-layers">
+                    <h4>Digital Clock</h4>
+                    <p>Created an interactive Digital Clock using HTML, CSS, and JavaScript.</p>
+                    <a href="https://umesh-kakade.github.io/Digital-Clock/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Umesh Kakade | All Rights reserved.</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="script.js"></script>
+</body>
+</html> 
